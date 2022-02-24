@@ -1,0 +1,100 @@
+body {
+  background-image: url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 650px;
+}
+
+.full .login {
+  min-height: 300px;
+  min-width: 300px;
+  border-radius: 20%;
+  background-color: #e6e6e6;
+  border: 1px solid black;
+}
+
+.full .login .login_head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.full .login .login_head h2 {
+  font-family: 'Dancing Script', cursive;
+  color: #ffa600;
+}
+
+.full .login .login_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.full .login .login_body .login_element {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.full .login .login_body .login_element .text {
+  padding: 10px 0px;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 40% 40% 40% 40%;
+}
+
+.full .login .login_body .login_element .text2 {
+  border: 2px solid black;
+  border-radius: 40% 40% 40% 40%;
+}
+
+.full .login .login_body .login_element .send {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.full .login .login_body a {
+  margin-top: 40px;
+}
+
+header {
+  background-color: #f0f0f0;
+  opacity: 80%;
+}
+
+header ul li a {
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

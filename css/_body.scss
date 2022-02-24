@@ -1,0 +1,93 @@
+body{
+    background-image:url("../images/background2.jpg") ;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.full{
+ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:650px;
+  
+   
+    .login{
+        min-height:300px;
+        min-width:300px;
+        border-radius:20%;
+        background-color:rgb(230, 230, 230);
+       
+        
+        border:1px solid black;
+        .login_head{
+            display:flex;
+            justify-content:center;
+            h2{
+                font-family: 'Dancing Script', cursive;
+                color:rgb(255, 166, 0);
+                
+            }
+        }
+        .login_body{
+            display:flex;
+                flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            
+            .login_element{
+                margin-top:10px;
+                display:flex;
+                flex-direction:column;
+           
+              
+                .text{
+                padding:10px 0px;
+                margin-top:10px;
+                border:2px solid black;
+                border-radius:40% 40% 40% 40%;
+           
+                
+                }
+                .text2{
+                    border:2px solid black;
+                border-radius:40% 40% 40% 40%;
+                
+                }
+                .send{
+                
+                margin-top:20px;
+                background-color:white;
+                }
+           
+
+            
+
+            }
+            a{
+                margin-top:40px;
+            }
+            
+        }
+        
+        
+        
+       
+    }
+
+   
+  
+}
+header{
+    background-color:rgb(240, 240, 240);
+    opacity: 80%;
+    ul{
+        li{
+            a{
+                font-family: 'Dancing Script', cursive;
+                font-size:20px;
+                color:red;
+            }
+        }
+    }
+
+}
